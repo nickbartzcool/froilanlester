@@ -1,0 +1,40 @@
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  body{
+    background-color: lightblue;
+    background:lightcyan;
+  }
+
+  a {outline-color:blue;}
+
+a.dotted {outline-style: dotted;}
+a.dashed {outline-style: dashed;}
+a.solid {outline-style: solid;}
+a.double {outline-style: double;}
+a.groove {outline-style: groove;}
+a.ridge {outline-style: ridge;}
+a.inset {outline-style: inset;}
+a.outset {outline-style: outset;}
+
+a{
+  text-decoration: none;
+}
